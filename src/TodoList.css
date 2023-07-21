@@ -123,6 +123,7 @@ button.deleteAll{
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 button.deleteAll:hover{
@@ -132,6 +133,10 @@ button.deleteAll:hover{
     color: white;
 }
 
+.icon{
+    max-width: 100%;
+    text-align: center;
+}
 
 @media screen and (max-width: 900px) {
     form{
